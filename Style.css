@@ -1,0 +1,466 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body{
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden;
+    }
+
+    
+
+     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;      
+  align-items: center;     
+  white-space: nowrap;     
+            
+}
+
+    .navbar .logo img {
+      height: 50px;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+    }
+
+    .navbar ul li {
+      margin-left: 25px;
+    }
+
+    .navbar ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 400;
+      transition: color 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: #007b87;
+    }
+
+    .navbar .search-icon {
+      font-size: 20px;
+      color: green;
+      cursor: pointer;
+      display: flex;
+       margin-left: 30px;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #012a4a;
+      padding: 80px 60px;
+      color: white;
+    }
+
+    .hero .text {
+      max-width: 50%;
+      
+    }
+
+    .hero .text h1 {
+      font-size: 42px;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+
+    .hero .text span {
+      color: #00cc99;
+    }
+
+    .hero .image img {
+      width: 400px;
+      
+      border-radius: 50%;
+    }
+
+    /* MEL Section */
+    .mel-section {
+      padding: 60px 60px;
+      background-color: #fff;
+      margin-top: 70px;
+      
+    }
+
+    .mel-section h2 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #000;
+      border-bottom: 2px solid #003d5b;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+    #images{
+          width: 100%;
+          height: 100%;
+          top: 90px;
+          position: relative;
+        
+          /* right: 30px; */
+    }
+
+    
+    #image1{
+            width: 470px;
+            height: 440px;
+            margin-left: 70px;
+            border-radius: 5%;
+
+    }
+    .box2{
+         width: 700px;
+         height: 400px;
+         margin-left: 560px;
+         position: relative;
+         margin-bottom: 600px;
+    }
+    .box3{
+          position: relative;
+          width: 600px;
+          bottom: 440px;
+          margin-left: 20px;
+
+    }
+
+    .btn1{
+         width: 170px;
+         height: 50px;
+         text-align: center;
+         
+         line-height: 2.5rem;
+         color: cadetblue;
+         cursor: pointer;
+         border: 1px solid;
+         border-radius: 50px;
+        position: relative;
+        bottom: 300px;
+        left: 40px;
+    }
+    .box4{
+        width: 580px;
+        height: 230px;
+        position: relative;
+        right: 500px;
+        bottom: 140px;
+    }
+    .box5{
+        font-size: 28px;
+        font-weight: bolder;
+        position: relative;
+        bottom: 500px;
+        left: 110px;
+    }
+#box6{
+     width: 400px;
+     height: 380px;
+     position: relative;
+     bottom: 455px;
+     left: 100px;
+     border-radius: 15px;
+}
+.btn2{
+     width: 170px;
+     height: 50px;
+     text-align: center;
+     line-height: 2.5rem;
+     border-radius: 30px;
+     border: 1px solid;
+     position: relative;
+     bottom: 520px;
+     right: 120px;
+     color: cadetblue;
+}
+
+
+/* SECTION-REVERS */
+
+.box7{
+        font-size: 20px;
+        position: relative;
+        bottom: 450px;
+        left: 50px;
+}
+
+#image2{
+     width: 480px;
+     height: 340px;
+     border-radius: 15px;
+     position: relative;
+     bottom: 420px;
+     left: 50px;
+}
+
+.box8{
+      width: 550px;
+      height: 250px;
+      margin-left: 450px;
+      position: relative;
+      bottom: 780px;
+      left: 120px;
+
+}
+.pro3{
+     width: 150px;
+     height: 40px;
+     border: 1px solid;
+     cursor: pointer;
+     text-align: center;
+     line-height: 2.5rem;
+     border-radius: 30px;
+     margin-top: 75px;
+     color: cadetblue;
+}
+
+.box9{
+     width: 630px;
+     position: relative;
+     right: 520px;
+     top: 160px;
+     
+     
+}
+.para2{
+   position: relative;
+   bottom: 650px;
+   left: 650px;
+   font-size: 30px;
+}
+
+ #image3{
+        width: 450px;
+        height: 450px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 610px;
+        left: 750px;
+ }
+ .para3{
+      width: 160px;
+      height: 40px;
+      border: 1px solid;
+      text-align: center;
+      line-height: 2.6rem;
+      border-radius: 30px;
+      position: relative;
+      bottom: 670px;
+      left: 540px;
+      color: black;
+
+ }
+ .para4{
+       font-size: 30px;
+       position: relative;
+       bottom: 600px;
+       left: 50px;
+  
+ }
+ .para5{
+      width: 670px;
+      border: 1px solid blue;
+      position: relative;
+      bottom: 610px;
+      left: 450px;
+    
+ }
+
+ #image4{
+      width: 480px;
+       height: 420px;
+       border-radius: 15px;
+       position: relative;
+       bottom: 560px;
+       left: 30px;
+ }
+
+ .box10{
+      width: 600px;
+      height: 250px;
+      position: relative;
+      bottom: 990px;
+      left: 550px;
+ }
+
+ .para6{
+       width: 130px;
+       height: 40px;
+       border: 1px solid;
+       text-align: center;
+       line-height: 2.7rem;
+       border-radius: 30px;
+       margin-top: 10px;
+ }
+
+ .para7{
+       width: 400px;
+       
+       margin-top: 80px;
+       position: relative;
+      nav-left: hello sohaeoj;
+       font-size: 30px;
+       ime-mode: bor;
+        margin-top: 20px;
+        margin-left: 50px;
+ }
+ 
+
+  .box11{
+        width: 430px;
+        height: 520px;
+        position: relative;
+        right: 450px;
+        top: 30px;
+        line-height: 20px;
+  }
+   #image5{
+        width: 450px;
+        height: 380px;
+        border-radius: 15px;
+        margin-left: 500px;
+        position: relative;
+        bottom: 140px;
+   }
+
+   .para8{
+        width: 130px;
+        height: 30px;
+        border: 1px solid;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 2rem;
+        position: relative;
+        bottom: 180px;
+        left: 330px;
+   }
+
+
+
+  #image6{
+          width: 450px;
+          height: 300px;
+          border-radius: 15px;
+          position: relative;
+          bottom: 70px;
+          right: 20px;
+
+  }
+
+    .para9{
+          width: 540px;
+          border: 1px solid blue;
+          position: relative;
+          bottom: 110px;
+          left: 380px;
+    }
+
+    .para10{
+          font-size: 30px;
+          position: relative;
+          bottom: 120px;
+          right: 20px;
+    }
+
+    .box12{
+        width: 520px;
+        height: 300px;
+        position: relative;
+        bottom: 370px;
+        left: 460px;
+
+    }
+    .para11{
+          width: 140px;
+          height: 35px;
+          border: 1px solid;
+          border-radius: 30px;
+          line-height: 1.8rem;
+          text-align: center;
+          margin-top: 130px;
+    }
+
+    .para12{
+          width: 470px;
+          border: 1px solid blue;
+          position: relative;
+          bottom: 305px;
+
+    }
+
+    .para13{
+          font-size: 30px;
+          font-weight: bolder;
+          position: relative;
+          bottom: 350px;
+          left: 520px;
+          line-height: 40px;
+    }
+
+    .box13{
+          width: 550px;
+           height: 300px;
+           position: relative;
+           bottom: 300px;
+           right: 20px;
+    }
+
+    #image7{
+          width: 450px;
+          height: 300px;
+          border-radius: 15px;
+          position: relative;
+          bottom: 600px;
+          left: 570px;
+    }
+    .para14{
+          width: 140px;
+          height: 40px;
+          border: 1px solid cadetblue;
+          border-radius: 30px;
+          line-height: 2.2rem;
+          text-align: center;
+          margin-top: 140px;
+          margin-left: 400px;
+          
+    }
+
+   
+/* FOOTER NAVBAR */
+
+#image8{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      top: 560px;
+}
+.footers{
+      width: 100%;
+      height: 400px;
+      
+
+}
